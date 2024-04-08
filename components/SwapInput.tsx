@@ -43,11 +43,11 @@ const SwapInput = ({
         _placeholder={{ color: 'gray.500' }}
       />
       <Box alignSelf="flex-end" pr={{ base: "1", md: "2" }}>
-        <Text fontSize={{ base: "sm", md: "md" }} color={textColor}>
-          {tokenSymbol}
-        </Text>
         <Text fontSize={{ base: "xs", md: "sm" }} color={textColor}>
           Balance: {truncate(tokenBalance || '')}
+        </Text>
+        <Text fontSize={{ base: "sm", md: "md" }} color={textColor}>
+          {tokenSymbol}
         </Text>
       </Box>
       {current === type && (
