@@ -40,7 +40,7 @@ const Home = () => {
   const [contractBalance, setContractBalance] = useState("0");
   const [nativeValue, setNativeValue] = useState("0");
   const [tokenValue, setTokenValue] = useState("0");
-  const [currentFrom, setCurrentFrom] = useState("native");
+  const [currentFrom, setCurrentFrom] = useState("token");
   const [isLoading, setIsLoading] = useState(false);
 
   const { mutateAsync: swapNativeToken } = useContractWrite(dexContract, "swapEthTotoken");
