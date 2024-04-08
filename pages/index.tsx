@@ -138,21 +138,21 @@ const Home = () => {
       >
         <SwapInput
           current={currentFrom}
-          type="native"
-          max={nativeBalance?.displayValue}
-          value={nativeValue}
-          setValue={setNativeValue}
-          tokenSymbol="MATIC"
-          tokenBalance={nativeBalance?.displayValue}
-        />
-        <SwapInput
-          current={currentFrom}
           type="token"
           max={tokenBalance?.displayValue}
           value={tokenValue}
           setValue={setTokenValue}
           tokenSymbol={symbol}
           tokenBalance={tokenBalance?.displayValue}
+        />
+        <SwapInput
+          current={currentFrom}
+          type="native"
+          max={nativeBalance?.displayValue}
+          value={nativeValue}
+          setValue={setNativeValue}
+          tokenSymbol="MATIC"
+          tokenBalance={nativeBalance?.displayValue}
         />
         
        
