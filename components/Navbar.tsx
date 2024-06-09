@@ -18,7 +18,7 @@ export default function Navbar() {
             color={colorMode === 'light' ? 'black' : 'white'}
         >
             <Flex align="center" mr={5}>
-                <Image src="/xpo1.png" alt="Logo" boxSize="50px" mr={2}/>
+                <Image src="/fit.png" alt="Logo" boxSize="50px" mr={2}/>
                
             </Flex>
 
