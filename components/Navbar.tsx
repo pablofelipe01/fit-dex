@@ -18,10 +18,8 @@ export default function Navbar() {
             color={colorMode === 'light' ? 'black' : 'white'}
         >
             <Flex align="center" mr={5}>
-                <Image src="/logo.png" alt="Logo" boxSize="50px" mr={2}/>
-                <Text fontSize="xl" fontWeight="bold">
-                    [Creator`s name] Dex
-                </Text>
+                <Image src="/xpo1.png" alt="Logo" boxSize="50px" mr={2}/>
+               
             </Flex>
 
             {/* Hamburger icon for mobile */}
@@ -52,8 +50,8 @@ export default function Navbar() {
                     justify="center"
                     width={{ base: "full", md: "auto" }}
                 >
-                    <Button as="a" href="https://token-social.vercel.app/login" px={2} variant="ghost" target="_blank" rel="noopener noreferrer">Creator</Button>
-                    <Button as="a" href="https://www.truesocialtoken.xyz/sign-in" px={2} variant="ghost" target="_blank" rel="noopener noreferrer">Home</Button>
+                    {/* <Button as="a" href="https://token-social.vercel.app/login" px={2} variant="ghost" target="_blank" rel="noopener noreferrer">Creator</Button>
+                    <Button as="a" href="https://www.truesocialtoken.xyz/sign-in" px={2} variant="ghost" target="_blank" rel="noopener noreferrer">Home</Button> */}
                 </Stack>
             </Box>
 
